@@ -1,0 +1,14 @@
+In recent years, ECG signal plays an important role in the primary diagnosis, prognosis, 
+and survival analysis of heart diseases. Electrocardiography has had a profound influence 
+on the practice of medicine.
+This Project deals with the detection of QRS complexes of ECG signals using derivativebased/Pan-Tompkins/wavelet transform-based algorithms. The electrocardiogram signal 
+contains an important amount of information that can be exploited in different manners. 
+The ECG signal allows for the analysis of anatomic and physiologic aspects of the whole 
+cardiac muscle. Different ECG signals from MIT/BIH Arrhythmia database are used to 
+verify the various algorithms using MATLAB software.
+The wavelet-based algorithm presented in this Project Report is compared with the filtering 
+algorithm for signal denoising and detection of QRS complexes meanwhile better results 
+are obtained for ECG signals by the wavelet-based algorithm. In the wavelet-based 
+algorithm, the ECG signal has been denoised by removing the corresponding wavelet 
+coefficients at higher scales. Then QRS complexes are detected and each complex is used 
+to find the peaks of the individual waves like P and T, and also their deviations
